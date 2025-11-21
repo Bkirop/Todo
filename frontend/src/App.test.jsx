@@ -1,9 +1,9 @@
 import { render, screen, fireEvent, waitFor } from "@testing-library/react"
 import App from "./App";
-import * as api from "./lib/api";
+import * as api from "./lib/api"; // allows mocking of their function
 import { expect } from "vitest";
 
-vi.mock("./lib/api");
+vi.mock("./lib/api"); // tells vitetest api to use mocked version
 
 
 test("renders title", async ()=>{
