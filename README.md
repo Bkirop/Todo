@@ -98,8 +98,8 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/PLP-MERN-Stack-Development/Week-6-testing.git
-cd Week-6-testing
+git clone https://https://github.com/Bkirop/Todo.git
+cd testing
 ```
 
 ### 2. Install Backend Dependencies
